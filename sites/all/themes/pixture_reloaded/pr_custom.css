@@ -1,0 +1,194 @@
+/* mine. Pixture Reloaded my custom CSS */
+
+  /* mine. top right bottom left */
+
+/**********************/
+/* below in style.css */
+/**********************/
+
+
+.breadcrumb {
+	  padding: 5px 0 0 15px;
+ }
+
+.rounded-corner .wrap-corner .r-edge {
+    padding: 4px 4px 4px 4px;
+}
+
+
+
+/********************/
+/* below in pr.css */
+/********************/
+
+/* mine below changed font size and color */
+h1 {
+}
+
+h2 {
+ }
+
+h3 {
+  color:#339999
+    /* changed to greenish font */
+  }
+
+h4 {
+  color:#339999
+    /* changed to greenish font */
+ }
+
+h5 {
+  color:#339999;
+}
+
+h6 {
+  color:#660099;
+  /* changed to maroon font */ 
+   }
+
+
+/* mine. top right hand header */
+.region-header {
+  float:right;
+  margin:0px 0 0 0;
+  }
+
+
+/* copied all Header style from pr.css - only few overrides */
+
+/* Header */
+#header {
+  margin: 0 0 0px;
+  padding: 0;
+  _height: 73px;
+  min-height: 73px;
+}
+/* no change
+#branding {
+  float: left;
+  padding-left: 10px;
+   font-style:italic;
+  _height: 80px;
+  min-height: 80px;
+  width: 49.5%; /* Adjust this if you have a very long site name or large logo */
+}*/
+
+#logo {
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+  overflow: hidden;
+  padding: 10px 0 0 10px;
+}
+#head-elements {
+  _height: 88px;
+  min-height: 88px;
+  margin: 0 0 0 15px;
+  padding: 0px;
+}
+/* #branding {
+  text-transform: uppercase;
+} */
+#site-name {
+ /* font-size: 2.6em;  */
+  margin: 0;
+  padding: 13px 0 0 10px;
+  overflow: hidden;
+  line-height: 1.3em;
+}
+
+/*
+.logo-site-name a:hover,
+.logo-site-name a:focus {
+  text-decoration: none;
+} */
+
+#site-slogan {
+  font-style:italic;
+  font-size: 1em;
+  line-height: 1em;
+  text-align: left;
+  margin: 0;
+  padding: 0 0 0 23px;
+}
+
+
+
+/* mine. added. top right hand header */
+.region-header .block-content {
+  padding: 5px 5px 0px 5px;
+  /* mine. top right bottom left */
+  margin-bottom: 0px;
+ }
+
+
+.block-content {   /* mine. */
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.block-inner {
+margin: 3px;
+}
+
+
+
+/* below placed border around main page, is not working in new pr. replaced with code below
+#block-system-main .block-content {	*/
+
+
+
+#block-system-main {
+/*  mine
+removed: padding: 0; 
+added both border lines */
+border:solid;
+border-style:groove;
+border-width: thin;
+padding: 5px 15px 5px 20px;
+border-radius: 10px;
+}
+
+
+
+
+/* tested to do straight lines like Facebook */
+.region.region-sidebar-first.sidebar {
+border-right:solid;
+border-width: thin;
+}
+.region.region-sidebar-second.sidebar {
+margin-right: 2px
+border-left:solid;
+border-width: thin;
+}
+
+
+
+
+
+
+/***********************/
+/* below in tables.css */
+/***********************/
+
+th {
+  border-bottom:none;
+  margin:0;
+  padding:.05em .1em; /* mine. */
+}
+
+
+/**********************/
+/* below in forms.css */
+/**********************/
+
+form {
+  margin:0 0 .2em;  /* mine. */
+  padding:0;
+}
+
+
